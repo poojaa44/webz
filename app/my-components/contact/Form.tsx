@@ -23,7 +23,7 @@ const initialState: ActionResponse = {
 const service = [
   "Seo",
   "Google Ads",
-  " Social Media Maketing",
+  "Social Media Maketing",
   "Web Development",
   "Hosting Support",
   "Content Marketing",
@@ -36,6 +36,7 @@ const Form = () => {
   );
   const [formKey, setFormKey] = React.useState(0);
   const router = useRouter();
+  console.log("Checking", state.success);
   useEffect(() => {
     if (state.success) {
       setFormKey((prev) => prev + 1);

@@ -15,7 +15,7 @@ const FormSchema = z.object({
     [
       "Seo",
       "Google Ads",
-      " Social Media Maketing",
+      "Social Media Maketing",
       "Web Development",
       "Hosting Support",
       "Content Marketing",
@@ -56,8 +56,8 @@ export async function submitForm(
     const transporter = nodemailer.createTransport({
       service: "gmail",
       auth: {
-        user: process.env.Mail_BOT_EMAIL,
-        pass: process.env.Mail_BOT_PASSWORD,
+        user: process.env.MAIL_BOT_EMAIL,
+        pass: process.env.MAIL_BOT_PASSWORD,
       },
     });
 
