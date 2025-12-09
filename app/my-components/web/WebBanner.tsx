@@ -26,7 +26,7 @@ const WebBanner = () => {
             alt=""
           />
 
-          <div className="absolute w-full h-[60%] top-5 left-0 z-[1] overflow-hidden shadow-[0_0_30px_5px_#FEF7F0]">
+          <div className="absolute w-full h-[60%] top-3 sm:top-5 left-0 z-[1] overflow-hidden shadow-[0_0_30px_5px_#FEF7F0]">
             <div className="flex animate-marquee1 gap-4 w-max">
               {/* Original Set */}
 

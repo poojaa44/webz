@@ -7,7 +7,7 @@ const WhySmm = () => {
         <div className=" lg:w-1/2">
           <img className="w-[80%] mx-auto" src="/smm/why_smm.png" alt="" />
         </div>
-        <div className=" lg:w-1/2 space-y-4">
+        <div className=" lg:w-1/2 space-y-4 max-lg:text-center">
           <h2> Why Social Media is Essential for Your Business?</h2>
           <p>
             {" "}

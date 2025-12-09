@@ -160,7 +160,7 @@ const OurServices = () => {
           </div>
 
           <div className="text-center">
-            <CustomButton btnText="Explore" route="/services" />
+            <CustomButton btnText="Explore" route="/about-us" />
           </div>
         </div>
       </div>

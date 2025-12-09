@@ -8,15 +8,11 @@ const WhatDiff = () => {
         Why Brands Trust Our Social Media Experts?
       </h2>
 
-      <div className=" flex max-lg:flex-col-reverse gap-4 items-center  ">
-        <div className="lg:w-1/2">
-          <img
-            src="/smm/smm-4.png"
-            className="rotate-y-180 w-[80%] lg:ms-auto "
-            alt=""
-          />
+      <div className=" flex max-lg:flex-col gap-4 items-center  ">
+        <div className="lg:w-1/2 w-[80%] mx-auto">
+          <img src="/smm/smm-4.png" className="rotate-y-180  " alt="" />
         </div>
-        <div className="lg:w-1/2">
+        <div className="lg:w-1/2 max-lg:text-center ">
           <h4 className="mb-3 text-xl ">
             We’re not just posting—we’re growing your brand with purpose and
             precision.
@@ -26,7 +22,7 @@ const WhatDiff = () => {
             stronger engagement to measurable business growth. Here’s what sets
             us apart:
           </p>
-          <ul className="list-disc list-outside space-y-4 max-lg:ml-3 ">
+          <ul className="list-disc list-inside space-y-4 max-lg:ml-3 ">
             <li>
               ✅{" "}
               <strong className="text-accent-orange">

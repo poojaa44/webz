@@ -10,13 +10,13 @@ const WhatWeDo = () => {
         <div className="absolute top-6 right-6 bg-gradient-right z-[4] w-[80%] aspect-[16/7]  max-md:hidden  "></div>
         <div className="maxWidth-container mx-auto relative z-[5]  w-full">
           <h2 className="w-full text-center">Why Us</h2>
-          <div className="   flex max-md:flex-col gap-4 justify-between items-center mx-auto">
+          <div className="   flex max-md:flex-col gap-4 justify-center md:justify-between items-center mx-auto">
             <img
               className="w-[80%] mx-auto md:w-[35%]"
               src="/homepage/why-us.jpg"
               alt=""
             />
-            <div className="space-y-6 md:w-1/2 ">
+            <div className="space-y-6 md:w-1/2 max-md:text-center ">
               <p className="">
                 We are dedicated to achieving measurable business growth for
                 you. Our approach centers on strategies that directly generate
@@ -46,7 +46,7 @@ const WhatWeDo = () => {
                 </li>
               </ul>
 
-              <CustomButton route="/about-us" />
+              <CustomButton classValues=" max-md:mx-auto " route="/about-us" />
             </div>
           </div>
         </div>

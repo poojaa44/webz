@@ -8,11 +8,8 @@ const WhyChooseUs = () => {
           <h2 className="text-center  text-accent-red ">Why choose us?</h2>
           <img className="w-[80%] mx-auto " src="/seo/why.jpg" alt="" />
         </div>
-        <div className="lg:w-1/2 ">
-          <h3 className="mb-4">
-            What Makes Us the SEO Partner You Can Rely On
-          </h3>
-          <ul className="space-y-4">
+        <div className="lg:w-1/2 max-lg:text-center">
+          <ul className="space-y-4 ">
             <li>
               <span className="text-accent-orange mr-2 font-bold">
                 🚀 Strategic, Not Generic:

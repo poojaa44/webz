@@ -39,7 +39,7 @@ const WhoWeHelp = () => {
   return (
     <section>
       <div className="maxWidth-container mx-auto uni-padding-b">
-        <div className="text-center space-y-3">
+        <div className="text-center space-y-3 mb-4">
           <h2>Solutions for Every Industry</h2>
           <p>
             {" "}

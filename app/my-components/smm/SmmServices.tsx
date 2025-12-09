@@ -14,8 +14,8 @@ const SmmServices = () => {
         publishing, engagement, and analytics. Our services include:
       </p>
       <div className=" flex max-lg:flex-col-reverse gap-4 items-center  ">
-        <div className="lg:w-1/2">
-          <ul className="list-disc list-outside space-y-4 max-lg:ml-3">
+        <div className="lg:w-1/2 max-lg:text-center">
+          <ul className="list-disc list-inside space-y-4 max-lg:ml-3">
             {SmmServicesData.map((service, i) => (
               <li>
                 <span className="text-accent-orange font-bold text-lg">

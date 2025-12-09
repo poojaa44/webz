@@ -7,7 +7,7 @@ const WhyUs = () => {
         <div className=" lg:w-1/2">
           <img src="/web/web-3.png" alt="" />
         </div>
-        <div className=" lg:w-1/2">
+        <div className=" lg:w-1/2 max-lg:text-center">
           <h2 className="mb-6">Why Choose Us?</h2>
           <p className="mb-6">
             Your website is more than just a digital presence — it's a core part

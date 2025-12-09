@@ -77,7 +77,7 @@ const Cta = () => {
 
           <Link
             href={"/contact-us"}
-            className="bg-orange-500 text-white px-6 py-3 rounded-lg hover:bg-orange-600 w-full md:w-auto whitespace-nowrap"
+            className="bg-orange-500 text-white px-6 py-3 rounded-lg hover:bg-orange-600 w-max md:w-auto whitespace-nowrap"
           >
             Get Started
           </Link>

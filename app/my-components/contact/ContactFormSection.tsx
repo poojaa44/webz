@@ -13,8 +13,8 @@ const ContactFormSection = () => {
               className="absolute inset-0 w-full h-full max-lg:hidden"
               alt=""
             />
-            <div className=" lg:basis-[30%] h-full"></div>
-            <div className="  lg:basis-[70%] space-y-2 h-full pt-6 ">
+            <div className=" max-lg:text-center lg:basis-[30%] h-full"></div>
+            <div className="  max-lg:text-center lg:basis-[70%] space-y-2 h-full pt-6 ">
               <h3>
                 Let’s Make Some Digital Magic. We’re Always Online (kinda)
               </h3>
@@ -23,11 +23,8 @@ const ContactFormSection = () => {
                 viral content — we’ve got you. Drop us a message and let’s cook
                 something great together. 🚀
               </p>
-              <ul className="space-y-4">
-                <li
-                  className="flex gap-2 items-center group
-                          "
-                >
+              <ul className="space-y-4 ">
+                <li className="flex gap-2 items-center group max-lg:justify-center  ">
                   <span className=" group-hover:text-accent-red  ">
                     {callSVG}
                   </span>
@@ -36,7 +33,7 @@ const ContactFormSection = () => {
                     +91 675646367
                   </a>
                 </li>
-                <li className="flex gap-2 items-center group">
+                <li className="flex gap-2 items-center group max-lg:justify-center">
                   <span className="group-hover:text-accent-red  ">
                     {mailSVG}
                   </span>

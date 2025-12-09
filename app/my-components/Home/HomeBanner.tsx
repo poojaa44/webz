@@ -10,9 +10,7 @@ const HomeBanner = () => {
 
       <div className="maxWidth-container mx-auto relative z-[5]">
         <div className=" flex max-md:flex-col-reverse  gap-2 items-center justify-between  bg-cover  ">
-          {/* <div className='absolute bg-black/40  z-[2] inset-0 bg-gradient-to-b ' ></div> */}
-
-          <div className="  md:w-1/2 flex flex-col gap-5 ">
+          <div className="  md:w-1/2 flex flex-col max-md:text-center gap-5 ">
             <h1 className="">
               {" "}
               Stop Wishing, <br />
@@ -34,7 +32,10 @@ const HomeBanner = () => {
               tailored digital marketing solutions designed to boost your
               visibility, engage your audience, and drive real results
             </p>
-            <CustomButton classValues="w-max" route="/about-us" />
+            <CustomButton
+              classValues="w-max max-md:mx-auto"
+              route="/about-us"
+            />
           </div>
           <div>
             <img

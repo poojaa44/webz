@@ -3,7 +3,7 @@ import React from "react";
 const WhySEOMatters = () => {
   return (
     <section>
-      <div className="maxWidth-container mx-auto flex max-lg:flex-col  items-center justify-center uni-padding-y ">
+      <div className="maxWidth-container mx-auto flex max-lg:flex-col max-lg:text-center items-center justify-center uni-padding-y ">
         <div className="  lg:w-1/2  space-y-4 ">
           <h2>Why Invest in SEO Today?</h2>
           <h4>

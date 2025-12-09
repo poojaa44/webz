@@ -16,7 +16,7 @@ const GaServices = () => {
               PPC strategies that align with your goals and deliver measurable
               results. Our Google Ads services include:
             </p>
-            <ul className="list-disc list-inside space-y-3 grid sm:grid-cols-2 lg:grid-cols-3 gap-4  ">
+            <ul className="list-disc list-inside space-y-3 grid max-sm:text-center sm:grid-cols-2 lg:grid-cols-3 gap-4  ">
               {GaServicesData.map((data, i) => (
                 <li
                   key={data.desc + i}

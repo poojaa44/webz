@@ -7,7 +7,7 @@ const WhyGa = () => {
         <div className=" w-[80%] mx-auto lg:w-1/2 ">
           <img className="mx-auto" src="/ga/why.webp" alt="" />
         </div>
-        <div className="lg:w-1/2  space-y-3 ">
+        <div className="lg:w-1/2  space-y-3  max-lg:text-center">
           <h2>Why Google Ads is a Must-Have for Your Business Growth?</h2>
           <p>
             {" "}
